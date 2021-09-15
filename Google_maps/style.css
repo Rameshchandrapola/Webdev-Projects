@@ -27,10 +27,13 @@ background-image: url(mapsimage.jfif);
 footer{
     text-align: right;
     color: white;
+    margin-top:300px;
+    font-size:23px;
+    
 }
 .social-menu ul {
     position: absolute;
-    top: 30%;
+    top: 70%;
     left: 80%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -43,7 +46,7 @@ footer{
 }
 .social-menu ul li .fa {
     color: #000000;
-    font-size: 25px;
+    font-size: 27px;
     line-height: 50px;
     transition: .5s;
 }
@@ -83,4 +86,21 @@ footer{
 .copyrights{
     position: bottom;
     font-family: 'Noto Sans SC', sans-serif;
+}
+@media screen and (max-width:1325px){
+.social-menu ul {
+    position: absolute;
+    top: 73%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+footer{
+    text-align:center ;
+    color: #eee1f;
+    font-size:23px;
+   margin-top:780px;
+}
 }
