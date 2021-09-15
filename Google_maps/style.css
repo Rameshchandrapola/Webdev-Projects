@@ -90,7 +90,7 @@ footer{
 @media screen and (max-width:1325px){
 .social-menu ul {
     position: absolute;
-    top: 73%;
+    top: 58%;
     left: 45%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -100,7 +100,7 @@ footer{
 footer{
     text-align:center ;
     color: #eee1f;
-    font-size:23px;
-   margin-top:780px;
+    font-size:25px;
+   margin-top:750px;
 }
 }
