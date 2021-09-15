@@ -5,7 +5,7 @@
     color: orange;
     font-family:'Roboto',sans-serif;
     margin-top: auto;
-    padding-top: 5px;
+    padding-top: 50px;
 }
 .map{
     box-shadow:1px 1px 10px 10px white;
@@ -90,7 +90,7 @@ footer{
 @media screen and (max-width:1325px){
 .social-menu ul {
     position: absolute;
-    top: 58%;
+    top: 64%;
     left: 45%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -101,15 +101,14 @@ footer{
     text-align:center ;
     color: #eee1f;
     font-size:25px;
-   margin-top:750px;
+   margin-top:780px;
 }
 .map{
-    box-shadow:1px 1px 10px 10px white;
-    position: absolute;
-    padding: 5px;
+    margin-top:30px;
     left: 50%;
-    transform: translateX(-50%);
-    border: white;
-    border-radius: 10px;
+}
+.heading{
+    padding-top: 30px;
+    font-size:50px;
 }
 }
