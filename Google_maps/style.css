@@ -103,4 +103,13 @@ footer{
     font-size:25px;
    margin-top:750px;
 }
+.map{
+    box-shadow:1px 1px 10px 10px white;
+    position: absolute;
+    padding: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: white;
+    border-radius: 10px;
+}
 }
