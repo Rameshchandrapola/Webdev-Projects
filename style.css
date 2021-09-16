@@ -106,11 +106,24 @@ footer{
     transition: 0.3s;
     width: 30%;
     height : 30%;
-    margin: 20px 20px;
+    margin: 20px 370px;
     padding: 80px 120px;
     border-radius: 15px;
      text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
-
+@media screen and (max-width: 1000px){
+    .btn{
+        display:flex;
+    margin: 20px 350px;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .block{
+         justify-content: flex-start;
+    flex-wrap: wrap;
+    }
+}
