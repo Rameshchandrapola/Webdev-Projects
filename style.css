@@ -35,18 +35,19 @@ nav>h1{
 footer{
     text-align: center;
     background-color: #d8d8d8;;
-    padding: 15px;
+    padding: 1vh;
     color: black;
     bottom: 0;
 }
 .social-menu ul {
-    position: absolute;
-    top: 88%;
+    position: relative;
+    top: 15vh;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
 }
 .social-menu ul li {
     list-style: none;
@@ -95,18 +96,22 @@ footer{
     position: bottom;
     font-family: 'Noto Sans SC', sans-serif;
 }
+.block{
+    display: flex;
+    justify-content: space-evenly;
+}
 .btn{
     display: inline-block;
     background: linear-gradient(45deg,#87adfe,#ff77cd);
     border-radius: 100px;
-    padding: 15px 25px;
+    padding: 5vh 8vh;
     text-decoration: none;
     color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 30%;
     height : 30%;
-    margin: 20px 370px;
+    margin: 20px 37px;
     padding: 80px 120px;
     border-radius: 15px;
      text-align: center;
@@ -117,13 +122,14 @@ footer{
 @media screen and (max-width: 1000px){
     .btn{
         display:flex;
-    margin: 20px 350px;
-     text-align: center;
+        margin: 2vh 30vh;
+        text-align: center;
     justify-content: center;
     align-items: center;
     }
     .block{
-         justify-content: flex-start;
-    flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
 }
