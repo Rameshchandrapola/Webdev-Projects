@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bell</title>
+    <style>
+        body{
+          background:#191919;
+          display:flex;
+          justify-content:center;
+        }
+        div{
+          width:100px;
+          height: 100px;
+          background:#F2AD43;
+          border-radius: 50%;
+          margin-top:116px;
+        }
+        div::before{
+          content:"";
+          position:absolute;
+          width:240px;
+          height:240px;
+          border-radius: 50%;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+          background:#E08027;
+          margin-top:48px;
+          margin-left:-70px;
+        }
+        div::after{
+             content:"";
+          position:absolute;
+          width:100px;
+          height: 100px;
+          background:linear-gradient(180deg, transparent 50%,#824B20 50%);
+          border-radius: 50%;
+          margin-top:238px;
+        }
+        </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

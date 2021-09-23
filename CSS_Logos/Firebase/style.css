@@ -1,62 +1,66 @@
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    background-color: black;
+* {margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{ 
+  width:100vw;
+  height:100vh;
+  background: #1d1e22;
+  display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
-  
-.netflix
-{
-   width: 7vh;
-   height: 30vh;
-    background-color: #b1060f;
-    position: relative;
-}
-  
-.netflix::before
-{
-    content: "";
-    position: absolute;
-    width: 7vh;
-    height: 30vh;
-    background-color: #e50913;
-    transform: skew(20deg);
-    left: 5.5vh;
-    box-shadow: 0 0 2.5vh -1vh black;
-}
-.netflix::after
-  {
-    content: "";
-    position: absolute;
-    width: 7vh;
-    height: 30vh;
-    background-color: #b1060f;
-    left: 11vh;
-    z-index: -1;
+.firebase{
+    position:relative;
   }
- .inside
-{
-    width: 7.5vh;
-    height: 2vh;
-    position: absolute;
-    background-color: black;
-    bottom: -1vh;
-    transform: rotateZ(-5deg);
+  .parent_triangle{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 220px solid #efa61c;
+    position:relative;
 }
-  
-.inside::before
- {
-    content: "";
-    width: 7.8vh;
-    height: 2vh;
-    position: absolute;
-    background-color: black;
-    bottom: -1vh;
-    transform: rotateZ(12deg);
-    left: 10.2vh;
- }
-  
-  
-  
+.parent_triangle::after {
+    content: '';
+    position:absolute;
+    width: 0;
+    height: 0;
+    opacity:.8;
+    top:25px;
+    left: -40px;
+    z-index:2;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 195px solid #eb8325;
+}
+.firbase_title{
+  color: #fff;
+  margin-top: 2em;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    top:40px;
+    left:-40px;
+    z-index:3;
+    position:relative;
+    border-left: 150px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 180px solid #f4cb2c;
+}
+.triangle::before {
+      content: '';
+      position:absolute;
+      width: 0;
+      height: 0;
+      top:180px;
+      left: -150px;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-top: 50px solid #f4cb2c;
+}

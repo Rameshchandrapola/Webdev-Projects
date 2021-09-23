@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo</title>
+    <style>
+        body {
+            background: #191919;
+            display: flex;
+            align-items: center;
+            margin-top: 350px;
+            margin-left: 550px;
+        }
+
+        .one {
+            width: 80px;
+            height: 80px;
+            background: #714B67;
+            border-radius: 50%;
+            margin-right: 2px;
+        }
+
+        .two {
+            width: 80px;
+            height: 80px;
+            background: #8F8F8F;
+            border-radius: 50%;
+            margin-right: 2px;
+        }
+
+        .two::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 85px;
+            background: #8F8F8F;
+            margin-top: -80px;
+            margin-left: 59px;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 100px;
+        }
+
+        .three {
+            width: 80px;
+            height: 80px;
+            background: #8F8F8F;
+            border-radius: 50%;
+            margin-right: 2px;
+        }
+
+        .four {
+            width: 80px;
+            height: 80px;
+            background: #8F8F8F;
+            border-radius: 50%;
+            margin-right: 2px;
+        }
+
+        .inside {
+            width: 40px;
+            height: 40px;
+            background: #191919;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <div class="inside"></div>
+    </div>
+    <div class="two">
+        <div class="inside"></div>
+    </div>
+    <div class="three">
+        <div class="inside"></div>
+    </div>
+    <div class="four">
+        <div class="inside"></div>
+    </div>
+</body>
+
+</html>
