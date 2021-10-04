@@ -4,4 +4,5 @@
 - [Css Logos](https://github.com/Rameshchandrapola/Webdev-Projects/tree/main/CSS_Logos)
 - [Profile Card](https://rameshchandrapola.github.io/Webdev-Projects/Profile%20card/index.html)
 - [Dice_game](https://rameshchandrapola.github.io/Webdev-Projects/Dice_game/index.html)
+- [2048 game](https://rameshchandrapola.github.io/Webdev-Projects/2048game/index.html)
 
