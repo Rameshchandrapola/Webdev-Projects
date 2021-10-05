@@ -204,7 +204,6 @@ document.addEventListener('DOMContentLoaded', () => {
             resultDisplay.innerHTML = 'You LOSE'
             document.removeEventListener('keyup', control)
             setTimeout(() => clear(), 3000)
-            location.reload();
         }
     }
 
