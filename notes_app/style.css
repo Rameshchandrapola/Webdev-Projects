@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(221, 112, 194, 0.7);
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+    flex-wrap: wrap;
+   margin: 0;
+   padding-top: 3rem;
+}
+.addnote{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    padding : 5px 5px;
+    border: none;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 130px;
+    height: 35px;
+    position: fixed;
+    top:4%;
+    left: 45%;
+}
+.notes{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+}
+.tools{
+    background-color: rgb(50, 202, 207);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10px 10px 0 0;
+}
+.main{
+    height: 85%;
+    width: auto;
+    font-size: 1.5rem;
+    border: 1px solid green;
+   overflow:auto;
+   font-family: 'Inter', sans-serif;
+   padding-top: -50px;
+    /* display: none; */
+}
+textarea{
+    border:none;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    height: 85%;
+    outline: none;
+    font-size: 1.5rem;
+
+}
+.notes .hidden{
+    display: none;
+}
+button{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}

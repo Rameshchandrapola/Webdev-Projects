@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background:  linear-gradient(to right, #ee9ca7, #b62a80);
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+}
+h1{
+    font-size: 4rem;
+    margin-top: 150px;
+}
+.countdown-container{
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.big-text{
+    font-size: 4.5rem;
+    line-height: 1;
+    font-weight: semi-bold;
+    margin: 0 2rem;
+    font-family: 'Zen Antique Soft', serif;
+}
+.countdown{
+    text-align: center;
+}
+.countdown span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
