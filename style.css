@@ -101,19 +101,16 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
-.btn{
+.button{
     display: inline-block;
     background: linear-gradient(45deg,#87adfe,#ff77cd);
     border-radius: 100px;
-    padding: 5vh 8vh;
     text-decoration: none;
     color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 30%;
-    height : 30%;
-    margin: 20px 37px;
-    padding: 80px 120px;
+    width: 20vh;
+    height : 10vh;
     border-radius: 15px;
      text-align: center;
     justify-content: center;

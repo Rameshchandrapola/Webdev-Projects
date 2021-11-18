@@ -4,7 +4,7 @@ const quizdata = [
         a: 'Rameshchandra',
         b: 'Umeshchandra',
         c: 'Srinivas',
-        d: 'vinay',
+        d: 'Dont know',
         correct: 'a'
     }, {
         question: 'what is my age?',

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musik</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/music_icon.png">
+</head>
+
+<body>
+  <h1>Musik Player</h1>
+  <div class="music-info">
+    <h4 id="music-title">Hey</h4>
+    <div class="progress-container">
+      <div class="progress">
+      </div>
+    </div>
+  </div>
+  <div class="music-container" id="musiccontainer">
+
+    <audio src="music_mp3/music-player_music_hey.mp3" id="audio"></audio>
+    <div class="image-container">
+      <img src="images/hey.jpg" alt="music_cover" id="music-cover">
+      <img src="images/music_icon.png" alt="music_logo" class="music_icon">
+    </div>
+    <div class="nav">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play" class="action-btn">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+      </button>
+
+    </div>
+  </div>
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
