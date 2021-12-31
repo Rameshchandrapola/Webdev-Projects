@@ -1,133 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-a{
-    text-decoration: none;
-    color: lightgoldenrodyellow;
+a {
+  text-decoration: none;
+  color: lightgoldenrodyellow;
 }
-hr{
-    opacity: 0.4;
+hr {
+  opacity: 0.4;
 }
-body{
-    background-color: #f2ebe9;
+body {
+  background-color: #3f3d3d;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #d9eced;
-    font-family: 'Akaya Kanadaka', cursive;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d9eced;
+  font-family: "Akaya Kanadaka", cursive;
 }
-nav>h1{
-    font-size: 50px;
-    letter-spacing: .3px;
-    margin-left: 20px;
+nav > h1 {
+  font-size: 50px;
+  letter-spacing: 0.3px;
+  margin-left: 20px;
 }
+.row{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.card {
+  background-color: #797979;
+  width: 350px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 10px;
 
-
-footer{
+}
+.card_title{
     text-align: center;
-    background-color: #d8d8d8;;
-    padding: 2vh;
-    color: black;
-    height: 13vh;
-    bottom: 0;
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: 30px;
+    color: #dddadc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
-.social-menu ul {
-    position: relative;
-    top: 15vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-.social-menu ul li {
-    list-style: none;
-    margin: 0 10px;
-}
-.social-menu ul li .fa {
-    color: #000000;
-    font-size: 25px;
-    line-height: 50px;
-    transition: .5s;
-}
-.social-menu ul li .fa:hover {
-    color: #ffffff;
-}
-.social-menu ul li a {
-    position: relative;
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    text-align: center;
-    transition: 0.5s;
-    transform: translate(0,0px);
-    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-}
-.social-menu ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -10px);
-}
-.social-menu ul li:nth-child(1) a:hover {
-    background-color: #3b5999;
-}
-.social-menu ul li:nth-child(2) a:hover {
-    background-color: #55acee;
-}
-.social-menu ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
-}
-.social-menu ul li:nth-child(4) a:hover {
-    background-color: #211f1f;
-}
-.social-menu ul li:nth-child(5) a:hover {
-    background-color: #0077B5;
-}
-.copyrights{
-    position: bottom;
-    font-family: 'Noto Sans SC', sans-serif;
-}
-.block{
-    display: flex;
-    justify-content: space-evenly;
+.img_app {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px 10px 0 0;
 }
 .button{
-    display: inline-block;
-    background: linear-gradient(45deg,#87adfe,#ff77cd);
-    border-radius: 100px;
-    text-decoration: none;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 20vh;
-    height : 10vh;
-    border-radius: 15px;
-     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    margin:auto;
+    height: 50px !important;
+    width: 150px !important;
+
 }
-@media screen and (max-width: 1000px){
-    .btn{
-        display:flex;
-        margin: 2vh 20vh;
-        text-align: center;
+footer {
+  text-align: center;
+  background-color: #d8d8d8;
+  padding: 2vh;
+  color: black;
+  height: 13vh;
+  bottom: 0;
+}
+.social-menu ul {
+  position: relative;
+  top: 15vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #211f1f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077b5;
+}
+.copyrights {
+  position: bottom;
+  font-family: "Noto Sans SC", sans-serif;
+}
+.block {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  display: inline-block;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: bold;
+    font-size: 20px;
+    font-family: "Noto", sans-serif;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20vh;
+  height: 10vh;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .btn {
+    display: flex;
+    margin: 2vh 20vh;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    }
-    .block{
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
+  }
+  .block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
 }
