@@ -1,5 +1,5 @@
 # Webdev-Projects
-**This repo contains all my web development projects, and here are the links for them:-**
+**This repo contains all my web development projects, and here are the links for them :-**
 
 - [Google Maps](https://rameshchandrapola.github.io/Webdev-Projects/Google_maps/index.html)
 - [Touch Typing.rcp](https://touchtypingrcp.herokuapp.com/)
