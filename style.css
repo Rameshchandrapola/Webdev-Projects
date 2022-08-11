@@ -40,8 +40,8 @@ nav > h1 {
 .card {
   background-color: #797979;
   width: 350px;
-  height: 400px;
-  margin: 20px;
+  height: 380px;
+  margin: 30px;
   border-radius: 10px;
 
 }
@@ -50,8 +50,8 @@ nav > h1 {
     font-family: "Noto Sans SC", sans-serif;
     font-size: 30px;
     color: #dddadc;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 29px;
     
 }
 .img_app {
@@ -63,23 +63,25 @@ nav > h1 {
     margin:auto;
     height: 50px !important;
     width: 150px !important;
-
+}
+.button:hover{
+  transform: scale(1.25);
+  transition: 0.5s;
 }
 footer {
   text-align: center;
   background-color: #d8d8d8;
-  padding: 2vh;
+  padding: 22px;
   color: black;
-  height: 13vh;
+  height: 12vh;
   bottom: 0;
 }
 .social-menu ul {
   position: relative;
-  top: 15vh;
-  left: 50%;
+  top: 35px;
+  left: 50.1%;
   transform: translate(-50%, -50%);
-  padding: 0;
-  margin: 0;
+  padding: 30px;
   display: flex;
   justify-content: center;
 }
@@ -112,18 +114,15 @@ footer {
   transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 .social-menu ul li:nth-child(1) a:hover {
-  background-color: #3b5999;
-}
-.social-menu ul li:nth-child(2) a:hover {
   background-color: #55acee;
 }
-.social-menu ul li:nth-child(3) a:hover {
+.social-menu ul li:nth-child(2) a:hover {
   background-color: #e4405f;
 }
-.social-menu ul li:nth-child(4) a:hover {
+.social-menu ul li:nth-child(3) a:hover {
   background-color: #211f1f;
 }
-.social-menu ul li:nth-child(5) a:hover {
+.social-menu ul li:nth-child(4) a:hover {
   background-color: #0077b5;
 }
 .copyrights {
