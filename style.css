@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,19 +41,18 @@ nav > h1 {
 .card {
   background-color: #797979;
   width: 350px;
-  height: 380px;
+  height: 330px;
   margin: 30px;
   border-radius: 10px;
 
 }
 .card_title{
     text-align: center;
-    font-family: "Noto Sans SC", sans-serif;
-    font-size: 30px;
-    color: #dddadc;
-    margin-top: 30px;
-    margin-bottom: 29px;
-    
+    font-family: 'Comfortaa', cursive;
+    font-size: 27px;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 20px;
 }
 .img_app {
   width: 100%;

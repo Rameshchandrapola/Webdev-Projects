@@ -59,8 +59,8 @@ p{
     width: 456px;
     height: 456px;
     background-color: #BBADA0;
-    border: 7px solid orange;
-
+    border: 1px solid rgb(231, 184, 97);
+    box-shadow: 0 0 8px orange;
     border-radius: 6px;
     margin-top: 10px;
   }

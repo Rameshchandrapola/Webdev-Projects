@@ -13,7 +13,6 @@
     padding: 5px;
     left: 35%;
     transform: translateX(-50%);
-    border: white;
     border-radius: 10px;
 }
 .body{
@@ -27,7 +26,7 @@ background-image: url(mapsimage.jfif);
 footer{
     text-align: right;
     color: white;
-    margin-top:100px;
+    margin-top:200px;
     font-size:23px;
     
 }
